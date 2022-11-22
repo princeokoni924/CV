@@ -1,0 +1,124 @@
+
+/*parent tag*/
+body{
+  font-family:"Merriweather",serif;
+margin:0;
+text-align:center;
+}
+
+
+/*CONTAINERS TAGS*/
+.top-container{
+  background-color: #EAF6F6;
+  position:relative;
+  padding-top:100px;
+  }
+  
+  .middle-container{
+    background-color:#EEEEEE;
+
+    }
+
+    /*ICONS /  IMAGES*/
+.top-cloud{
+  right:300px;
+  top:50px;
+  position:absolute;
+}
+.bottom-cloud{
+  bottom:300px;
+left:300px;
+position:absolute;
+}
+    
+    /* HEADING  1 top container tag*/
+    h1{
+      font-family: "Sacramento", cursive;
+      font-size: 5.625rem;
+      color:#66BFBF;
+        margin:50px auto 0 auto;
+        line-height:2;
+    }
+/* Heading 2 top container tag*/
+.h2{
+  color:#66BFBF;
+  font-family:'montserrat',sans-serif;
+  font-size:2.5rem;
+  font-weight: normal;
+
+}
+
+
+/*Heading 2 middle container tag*/
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  color:#66BFBF;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+color: #11999E;
+}
+a{
+color: #11999E;
+}
+/* skill div*/
+.skill-row1,
+.skill-row2{
+  /*the screen size(width=50%)*/
+width:50%;
+
+/*margin for box size margin=100 by 100 top/bottom auto by auto left and right*/
+margin:100px auto 100px auto;
+text-align:left;
+line-height:2;
+
+}
+
+/*using floating here*/
+.computer-img{
+ 
+  float:left;
+  width:25%;
+  border-radius: 100%;
+  margin-right:30px;
+}
+/*using floating here*/
+.coding-boy{
+  float:left;
+  margin-right:30px;
+  width:25%;
+}
+/* using another floating "clear:left " to push
+the text to the left.*/
+
+hr{
+
+  border-color:gray;
+border-style: none;
+border-top-style:dotted;
+height:2px;
+width:8%;
+border-width:5px;
+}
+
+/*contact div section*/
+.contact-me{
+margin:100px auto 100px auto;
+width:50%;
+text-align:center;
+
+}
+/*contact div image section */
+.well-done{
+  width:25%;
+  border-radius:100%;
+float:left;
+margin-right:30px;
+line-height:2.5em;
+}
+.contact-me-description{
+
+
+}
